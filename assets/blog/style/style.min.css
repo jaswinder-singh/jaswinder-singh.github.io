@@ -1020,7 +1020,8 @@ h2.animateOnFirstLoad {
 }
 #post .cover {
   position: fixed;
-  padding-top: 20%;
+  /* padding-top: 20%; */
+  padding-top: 0%;
   width: 100%;
   opacity: 1;
 }
