@@ -808,7 +808,7 @@ h2.animateOnFirstLoad {
   }
 }
 .cover {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   right: 0;
@@ -1021,6 +1021,7 @@ h2.animateOnFirstLoad {
 #post .cover {
   position: fixed;
   /* padding-top: 20%; */
+  max-height: 600px;
   padding-top: 0%;
   width: 100%;
   opacity: 1;
