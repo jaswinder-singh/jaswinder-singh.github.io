@@ -403,7 +403,7 @@ b {
 .reduceMoreNavHeight > p:nth-of-type(1),
 .smallestNavHeight .menu_label,
 .smallestNavHeight > p:nth-of-type(1) {
-  display: none;
+  /* display: none; */
 }
 .heading {
   font-weight: 700;
