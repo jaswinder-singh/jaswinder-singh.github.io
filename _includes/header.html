@@ -8,20 +8,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="{% if page.layout == 'default' %}{{ site.description }}{% else %}{% if page.cover %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}{% endif %}" />
   <meta name="viewport" content="width=device-width" />
-  <meta name="msapplication-TileImage" content="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileImage" content="{{ site.url }}/images/favicon.jpg">
   <link rel="author" href="{{ site.googleplus }}" />
-  <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="{{ site.url }}/images/favicon.jpg" type="image/x-icon" />
   <link rel="stylesheet" type="text/css" media="all" href="{{ site.url }}/assets/blog/style/style.min.css" />
   <link rel="stylesheet" type="text/css" media="print" href="{{ site.url }}/assets/blog/style/print.css" />
   <!--[if lt IE 10]>
     <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/blog/style/ie9.css" />
   <![endif]-->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-57x57-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-72x72-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png" />
-  <meta property="og:image" content="{{ site.url }}/images/logo.png" />
+  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/favicon.jpg" />
+  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/favicon.jpg" />
+  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/favicon.jpg" />
+  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/favicon.jpg" />
+  <meta property="og:image" content="{{ site.url }}/images/favicon.jpg" />
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:description" content="{% if page.layout == 'default' %}{{ site.description }}{% else if page.cover %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
@@ -34,7 +34,7 @@
   <meta name="twitter:url" content="{{ site.url }}" />
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{% if page.layout == 'default' %}{{ site.description }}{% else if page.cover %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}" />
-  <meta name="twitter:image:src" content="{{ site.url }}/images/logo.png" />
+  <meta name="twitter:image:src" content="{{ site.url }}/images/favicon.jpg" />
   <script src="{{ site.url }}/assets/blog/javascript/turbolinks.min.js"></script>
 
   {% if page.url == '/thanks.html'%}<meta name="robots" content="noindex, nofollow">{% endif %}
