@@ -1396,7 +1396,7 @@ h2.animateOnFirstLoad {
     transform: translate(0, -2.8em);
   }
   #post h1 {
-    font-size: 4em;
+    font-size: 3em;
     letter-spacing: -3px;
   }
   #post .cover {
